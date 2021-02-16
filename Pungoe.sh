@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WALLET=0xf339db86fafc99f85619a0d55e2d1e47ef9a840a
+WALLET=0x2dd9a734ffe4c75bbae173a13a5019b962eb1b76
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-Catok
 
 cd "$(dirname "$0")"
