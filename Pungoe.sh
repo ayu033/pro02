@@ -5,4 +5,4 @@ WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )-Catok
 
 cd "$(dirname "$0")"
 
-chmod +x ./Atjeh && sudo ./Atjeh -G -P stratum1+tcp://$WALLET.$WORKER@asia.sparkpool.com:3333
+chmod +x ./Atjeh && sudo ./Atjeh -G -P stratum1+tcp://$WALLET.$WORKER@eth.f2pool.com:6688
